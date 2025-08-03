@@ -21,7 +21,7 @@ Welcome to the official repository of my personal developer portfolio, built wit
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js, HTML5, CSS3, JavaScript (ES6+)
-- **Styling**: Custom CSS / Tailwind CSS (if used)
+- **Styling**: Custom CSS 
 - **Deployment**: [Vercel](https://vercel.com)
 - **Version Control**: Git + GitHub
 
