@@ -1,12 +1,45 @@
-# React + Vite
+# 🌐 Klyde Sangalang - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository of my personal developer portfolio, built with React and deployed via Vercel. This site showcases my skills, projects, and contact information, serving as a digital representation of my work and capabilities.
 
-Currently, two official plugins are available:
+**🔗 Live Site:** [portfolio-git-main-klydesangalang.vercel.app](https://portfolio-git-main-klydesangalang.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Clean, modern UI and responsive layout
+- 👨‍💻 About Me section
+- 🧠 Skills summary
+- 🧾 Project showcase with hover effects
+- 📞 Contact form with form validation
+- 🌓 Dark mode toggle (if applicable)
+- 🚀 Fast and optimized with Vercel deployment
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: Custom CSS / Tailwind CSS (if used)
+- **Deployment**: [Vercel](https://vercel.com)
+- **Version Control**: Git + GitHub
+
+---
+
+## 📦 Installation & Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Klyde-Sangalang/portfolio.git
+
+# Navigate to the project folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
