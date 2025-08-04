@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <hr />
             <div className="footer-bottom">
-                <p className="footer-bottom-left">Powered By React | Copyright © 2025 Klyde Sangalang</p>
+                <p className="footer-bottom-left">Copyright © 2025 Klyde Sangalang</p>
                 {/* <div className="footer-bottom-right">
                 </div> */}
             </div>
