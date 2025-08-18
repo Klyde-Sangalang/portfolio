@@ -1,4 +1,3 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import profile_img from '../../assets/profile_img.svg';
 import './Hero.css';
 
@@ -17,9 +16,9 @@ const Hero = () => {
           I am an enthusiastic learner with a curious nature. I enjoy delving into new technologies and expanding my knowledge about them. Constantly seeking new challenges and opportunities, I strive to enhance my skills. I possess proficiency in both Web Development and Mobile Development.
         </p>
         <div className="hero-action">
-  <AnchorLink className="hero-connect anchor-link" href="#contact" style={{textDecoration: 'none'}}>
+  <a href='#contact' className='hero-connect' style={{textDecoration: 'none'}}>
     Connect With Me
-  </AnchorLink>
+  </a>
   <a
     className="hero-resume"
     href="https://drive.usercontent.google.com/download?id=1UdIYlrvvJdtntBSld9Ax82PM6gIXrCF4&export=download&authuser=0&confirm=t&uuid=3bf3f39c-a20b-4ac2-b68d-84439aa8e5da&at=AN8xHoowNr5Epy3qRMNy35RR4q-C:1754236626846"
