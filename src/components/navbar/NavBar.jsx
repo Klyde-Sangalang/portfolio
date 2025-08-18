@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { HashLink } from 'react-router-hash-link';
 
 import './NavBar.css';
 
@@ -20,36 +19,15 @@ const NavBar = () => {
         <div className={open ? "bar open" : "bar"}></div>
         <div className={open ? "bar open" : "bar"}></div>
       </div>
-
       <ul className={`nav-menu${open ? " open" : ""}`}>
-        <li>
-          <HashLink smooth to="#home" className='anchor-link'>
-            <p onClick={() => handleMenuClick('home')}>Home</p>
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="#about" className='anchor-link'>
-            <p onClick={() => handleMenuClick('about')}>About</p>
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="#services" className='anchor-link'>
-            <p onClick={() => handleMenuClick('services')}>Services</p>
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="#mywork" className='anchor-link'>
-            <p onClick={() => handleMenuClick('mywork')}>Portfolio</p>
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="#contact" className='anchor-link'>
-            <p onClick={() => handleMenuClick('contact')}>Contact</p>
-          </HashLink>
-        </li>
+        <li><a href='#home'><p onClick={()=>handleMenuClick('home')}>Home</p></a></li>
+        <li><a href="#about"><p onClick={()=>handleMenuClick('about')}>About</p></a></li>
+        <li><a href='#services'><p onClick={()=>handleMenuClick('services')}>Services</p></a></li>
+        <li><a href="#mywork"><p onClick={()=>handleMenuClick('mywork')}>Portfolio</p></a></li>
+        <li><a href="#contact"><p onClick={()=>handleMenuClick('contact')}>Contact</p></a></li>
       </ul>
     </div>
-  );
-};
+  )
+}
 
 export default NavBar;
