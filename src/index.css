@@ -20,3 +20,6 @@ body {
     font-family: "Courier Prime";
 }
 
+#home, #about, #services, #mywork, #contact {
+  scroll-margin-top: 80px; /* your navbar height */
+}

@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
+import { HashLink } from 'react-router-hash-link';
+
 import './NavBar.css';
 
 const NavBar = () => {
@@ -19,15 +20,36 @@ const NavBar = () => {
         <div className={open ? "bar open" : "bar"}></div>
         <div className={open ? "bar open" : "bar"}></div>
       </div>
+
       <ul className={`nav-menu${open ? " open" : ""}`}>
-        <li><AnchorLink className='anchor-link' href='#home'><p onClick={()=>handleMenuClick('home')}>Home</p></AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>handleMenuClick('about')}>About</p></AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={()=>handleMenuClick('services')}>Services</p></AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#mywork'><p onClick={()=>handleMenuClick('mywork')}>Portfolio</p></AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>handleMenuClick('contact')}>Contact</p></AnchorLink></li>
+        <li>
+          <HashLink smooth to="#home" className='anchor-link'>
+            <p onClick={() => handleMenuClick('home')}>Home</p>
+          </HashLink>
+        </li>
+        <li>
+          <HashLink smooth to="#about" className='anchor-link'>
+            <p onClick={() => handleMenuClick('about')}>About</p>
+          </HashLink>
+        </li>
+        <li>
+          <HashLink smooth to="#services" className='anchor-link'>
+            <p onClick={() => handleMenuClick('services')}>Services</p>
+          </HashLink>
+        </li>
+        <li>
+          <HashLink smooth to="#mywork" className='anchor-link'>
+            <p onClick={() => handleMenuClick('mywork')}>Portfolio</p>
+          </HashLink>
+        </li>
+        <li>
+          <HashLink smooth to="#contact" className='anchor-link'>
+            <p onClick={() => handleMenuClick('contact')}>Contact</p>
+          </HashLink>
+        </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
 export default NavBar;
