@@ -21,7 +21,7 @@ const Hero = () => {
   </a>
   <a
     className="hero-resume"
-    href="https://drive.usercontent.google.com/download?id=1UdIYlrvvJdtntBSld9Ax82PM6gIXrCF4&export=download&authuser=0&confirm=t&uuid=3bf3f39c-a20b-4ac2-b68d-84439aa8e5da&at=AN8xHoowNr5Epy3qRMNy35RR4q-C:1754236626846"
+    href="https://drive.usercontent.google.com/download?id=1DQZwplatCMAlDjU9Hj15Jvve1LyMlDcs&export=download&authuser=0&confirm=t&uuid=425278bb-333e-4d1d-8d8f-7b526222d6cb&at=AN8xHooJVzJbYs35W9aeNrJw346K:1755801117998"
     download
 
     style={{textDecoration: 'none'}}
