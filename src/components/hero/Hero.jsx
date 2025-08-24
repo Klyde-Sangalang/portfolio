@@ -12,9 +12,7 @@ const Hero = () => {
       <div className="hero-right">
         <h2>KLYDE VINCENT SANGALANG</h2>
         <h1><span>JR. SOFTWARE ENGINEER</span></h1>
-        <p>
-          I am an enthusiastic learner with a curious nature. I enjoy delving into new technologies and expanding my knowledge about them. Constantly seeking new challenges and opportunities, I strive to enhance my skills. I possess proficiency in both Web Development and Mobile Development.
-        </p>
+        
         <div className="hero-action">
   <a href='#contact' className='hero-connect' style={{textDecoration: 'none'}}>
     Connect With Me

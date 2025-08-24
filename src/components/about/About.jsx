@@ -14,8 +14,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>I am an enthusiastic developer with a strong drive for continuous learning and innovation. I enjoy tackling complex problems and turning ideas into real-world solutions through technology.</p>
-<p>My expertise spans Web Development, Mobile Development, and crafting user-friendly digital</p>
+                    <p>Fresh Computer Engineering graduate with internship experience in web development (WordPress, React) and freelance experience in mobile app development (Flutter, Firebase). Passionate about creating efficient, user-focused solutions and eager to grow in the tech industry.</p>
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p>Python</p><hr style={{width: '60%'}}/></div>
